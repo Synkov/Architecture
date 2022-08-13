@@ -17,7 +17,6 @@ class GetRequests:
         return request_params
 
 class PostRequests:
-
     @staticmethod
     def parse_input_data(data: str):
         result = {}
